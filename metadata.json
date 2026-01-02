@@ -1,0 +1,8 @@
+
+{
+  "name": "Swasth AI - Multilingual Health Awareness Chatbot",
+  "description": "A semantic search-based health awareness platform providing reliable medical information in multiple languages.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}

@@ -1,0 +1,23 @@
+
+{
+  "name": "swasth-ai",
+  "version": "1.0.0",
+  "description": "A Multilingual Semantic Search-Based Health Awareness Chatbot",
+  "main": "index.tsx",
+  "dependencies": {
+    "@google/genai": "^1.34.0",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "typescript": "^5.7.0"
+  },
+  "scripts": {
+    "start": "serve .",
+    "build": "tsc"
+  },
+  "author": "Swasth AI Team",
+  "license": "MIT"
+}
