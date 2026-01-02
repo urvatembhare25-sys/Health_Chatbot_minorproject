@@ -1,12 +1,12 @@
 
 import React, { useState, useRef, useEffect } from 'react';
 import { Message, SUPPORTED_LANGUAGES, Language, ActiveTab } from './types';
-import { getSwasthResponse } from './services/geminiService';
-import ChatBubble from './components/ChatBubble';
-import Disclaimer from './components/Disclaimer';
-import Login from './components/Login';
-import HowItWorks from './components/HowItWorks';
-import PrivacySafety from './components/PrivacySafety';
+import { getSwasthResponse } from './geminiService';
+import ChatBubble from './ChatBubble';
+import Disclaimer from './Disclaimer';
+import Login from './Login';
+import HowItWorks from './HowItWorks';
+import PrivacySafety from './PrivacySafety';
 
 const App: React.FC = () => {
   const [isAuthenticated, setIsAuthenticated] = useState<boolean>(() => {
